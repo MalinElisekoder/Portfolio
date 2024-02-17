@@ -1,0 +1,32 @@
+body{
+    background: #D4E6F7;
+    display: grid;
+    grid-template-areas: 
+        "link tekst bilde";
+    grid-template-columns: 250px auto 440px;
+
+}
+.link{
+    grid-area: link;
+display: flex;
+flex-direction: column;
+width: 100%;
+line-height: 1.5em;
+
+
+
+
+}
+.link a {
+    text-decoration: none;
+    color: #1D1C26;
+    
+}
+.link a:hover {color:#80a62e ;}
+.intro{
+    grid-area: tekst;
+}
+img{
+    grid-area: bilde;
+}
+
